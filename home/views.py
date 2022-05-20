@@ -340,7 +340,7 @@ def pay(request):
     if request.method == 'POST':
         api_key = 'sk_test_23b9337e8e593258b34771115faf53b9a66cde6a'# secret key from paystack
         curl = 'https://api.paystack.co/transaction/initialize'#paystack curl url
-        cburl = 'http://54.146.23.79/callback'#crownedge callback url to send success message to
+        cburl = 'http://54.173.62.56/callback'#crownedge callback url to send success message to
         ref = str(uuid.uuid4()) #reference number required by paystack as an additonal order number
         profile = Profile.objects.get(user__username=request.user.username)
         total = float(request.POST['total']) * 100 #total amount to be charged from the client's bank
