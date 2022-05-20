@@ -1,0 +1,779 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* top bar  */
+.hide a{
+    color: darkblue;
+}
+.welimg img{
+    width: 40px;
+    border-radius: 100%;
+    box-shadow: 2px 2px 5px 5px gold;
+}
+.welcome {
+    color: black;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-right: .6rem;
+}
+.welcome:hover{
+    text-decoration: none !important;
+}
+.welcome span{
+    color: darkblue;
+    font-weight: 600;
+    text-decoration: none;
+}
+.user-btn{
+    color: darkblue;
+    font-weight: 400;
+    padding-left: 1rem;
+    padding-right: .3rem;
+}
+.user-btn:hover{
+    text-decoration: none;
+}
+.user-btn span{
+    color: black;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.user-btn span:hover{
+    color: gold;
+    text-decoration: none !important;
+}
+.auth{
+    display: flex;
+    justify-content: space-around;
+}
+.auth li{
+    display: inline;
+}
+/* top bar done */
+h1{
+    color: gold;
+}
+.navbar{
+    background: #654329;
+}
+#navbarSupportedContent a{
+    color: white;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+}
+.navbar img{
+    width: 50%;
+    margin-left: 20%;
+}
+.navbar-nav{
+    margin-left: 50%;
+}
+#navbarNavDropdown a{
+    /* color: white; */
+    color: black;
+}
+.dropdown-menu{
+    background: gold;
+}
+.dropdown-menu .dropdown-item:hover{
+    background: darkblue;
+    color: white !important;
+}
+#iphone{
+    color: gold; 
+}
+#samsung{
+    color: gold;
+}
+.form-btn{
+    color:white;
+    background: darkblue;
+}
+.form-btn:hover{
+    /* background: gold; */
+    color: gold;
+}
+/* styling banner  */
+.carousel-control-prev i{
+    font-size: 30px;
+    color: black;
+}
+.carousel-control-next i{
+    font-size: 30px;
+    color: black;
+}
+.banner{
+    height: 40vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/pool.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* styling banner done */
+
+.container-fluid h1{
+    text-align: center;
+    margin-top: 2%;
+}
+.container h1{
+    text-align: center;
+    margin-top: 3%;
+}
+#card img{
+    height: 70vh;
+    width: 70vh;
+    margin-left: 25%;
+}
+/* content section  */
+.dtitle{
+    box-shadow: 8px 8px 10px 10px #f0f0f0;
+}
+.dtitle2{
+    box-shadow: 10px 10px 20px 20px #f0f0f0;
+}
+.ctitle{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.ctitle h3{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: gold;
+    outline: pink;
+}
+.ctitle p{
+    font-size: 1.1em;
+    font-weight: 500;
+    color: gold;
+    max-width: 800px;
+}
+.ctitle a{
+    font-size: 1.1em;
+    font-weight: 500;
+    color: darkblue;
+    max-width: 800px;
+    text-transform: capitalize;
+}
+.content-box{
+    padding-top: 5%;
+    /* padding-bottom: 5%; */
+}
+.content{
+    background: url(../img/content.jpg);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+.content1{
+    background: url(../img/content1.jpg);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+.content2{
+    background: url(../img/content2.jpg);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+.content3{
+    background: url(../img/content3.jpg);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+.content4{
+    background: url(../img/content4.jpg);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+.content p,
+.content1 p,
+.content2 p,
+.content3 p,
+.content4 p{
+    max-width: 900px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: gold;
+    text-shadow: gold;
+    text-align: center;
+}
+.content h4,
+.content1 h4,
+.content2 h4,
+.content3 h4,
+.content4 h4{
+    font-size: 35px;
+    font-weight: 700;
+    color: gold;
+    text-align: center;
+}
+/* content section done */
+/* detail  */
+.detail-box{
+    box-shadow: 40px 40px 40px 40px #f0f0f0;
+}
+.detail{
+    color: darkblue;
+}
+.detimg img{
+    height: 50vh;
+}
+.detail h4{
+   font-weight: 700;
+}
+.detail h6{
+    font-weight: 500;
+}
+.detail label{
+    font-weight: 500;
+}
+.detail h6 span{
+    color: darkblue;
+    font-weight: 800;
+    margin-left: 2rem;
+}
+.detail form input{
+    color: darkblue;
+    font-weight: 500;
+    margin-left: 2rem;
+    border: 1px solid darkblue;
+    outline: none;
+}
+.detail-btn{
+    background: darkblue;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.detail-btn:hover{
+    background: rgb(228, 194, 3);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.features .fas{
+    color: darkblue;
+}
+.features .fas:hover{
+    color: gold;
+}
+/* detail done */
+/* about us  */
+.abouttus{
+    /* background-color: gold; */
+    padding-bottom: 2rem;
+    display: grid;
+    color: gold;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    /* text-transform: capitalize; */
+    /* max-width: 900px; */
+    font-weight: bolder;
+    text-shadow: gold;
+}
+
+.abouttus h1{
+    text-align: center;
+}
+ .abouttus p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+    /* width: 100%; */
+  
+/* about us done */
+/* contact  */
+.contact{
+    /* margin-top: 3rem; */
+    margin-bottom: 5rem;
+}
+.map-box{
+    height: 70vh;
+    width: 100%;
+}
+.map{
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+.form-box{
+    padding-top: 3rem;
+    text-transform: capitalize;
+    color: rgb(228, 194, 3);
+    margin-bottom: 5rem;
+}
+.form-box form{
+    width: 100%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.form-box .form-group .box{
+    width: 100%;
+}
+.contact-btn{
+    background: rgb(228, 194, 3);
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: .5rem 1rem;
+    box-shadow: none;
+}
+.contact-btn:hover{
+    background: #654329;
+    color: white;
+    font-weight: 500;
+    box-shadow: none;
+}
+.form-box input{
+    box-shadow: none;
+    outline: none;
+    border: .5px solid rgb(228, 194, 3);
+}
+.form-box input:focus{
+    box-shadow: none;
+    outline: none;
+    border: .5px solid rgb(228, 194, 3);
+}
+.form-box textarea{
+    box-shadow: none;
+    outline: none;
+    border: .5px solid rgb(228, 194, 3);
+}
+.form-box textarea:focus{
+    box-shadow: none;
+    outline: none;
+    border: .5px solid rgb(228, 194, 3);
+}
+.ccontainer{
+    margin-top: 5rem;
+    box-shadow:  10px 10px 10px 10px #f0f0f0;
+}
+/* contact done */
+/* footer  */
+.footer{
+    background: darkblue;
+}
+.footer h1{
+    color: gold;
+    margin-right: 19%;
+}
+.footer h4{
+    color: white;
+    /* text-align: center; */
+}
+.footer h6{
+    color: gold;
+}
+.foota-box{
+    padding-left: 3%;
+}
+.foota-box h1{
+    font-size: 30px;
+}
+.foota-box h4{
+    font-size: 20px;
+}
+.foota-box2 img{
+    width: 60%;
+}
+.foota-box2 .list-unstyled li a{
+    color: gold;
+    font-size: 20px;
+}
+.foota-box2 .list-unstyled li span{
+    color: gold;
+    font-size: 20px;
+}
+.foota-box2 .list-unstyled li a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 10% !important;
+}
+.foota-box2 .list-unstyled li a span{
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.foota-box3 li{
+    padding-bottom: 2%;
+    margin-left: 9%;
+}
+.foota-box3 a{
+    color: gold;
+    font-size: 20px;
+}
+.foota-box3 a:hover{
+    text-decoration: none;
+}
+.foota-box4 a{
+    color: gold;
+    font-size: 20px;
+}
+.foota-box4 li{
+    transition: transform .5sec;
+}
+.foota-box4 li:hover{
+    transform: translateY(-30%);
+}
+.foota-box,
+.foota-box2,
+.foota-box3,
+.foota-box4{
+    margin: 4% 0;
+}
+.foota-box2,
+.foota-box3,
+.foota-box4{
+    border-left: 1px solid #f0f0f0;
+    padding-left: 4%;
+}
+.foota-box3{
+    padding-left: 8%;
+}
+.footer3{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding: 1% 0;
+    border-top: .5px solid #f0f0f0;
+}
+/* footer done */
+
+/* products  */
+.royal-box{
+    transition: transform .2s;
+    margin: 0 .2rem;
+    position: relative;
+}
+.royal-box:hover {
+    transition: .5s;
+    transform: scale(1.1); 
+}
+.royal-text{
+    position: absolute;
+    top: 1rem;
+    left: 4rem;
+    color: black;
+    font-size: 20px;
+    line-height: .5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.5s;
+}
+.book{
+    color: black;
+    font-size: 20px;
+    line-height: .3rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.book:hover{
+    color: white;
+    cursor: pointer;
+}
+.royal-img{
+    opacity: 1;
+    transition: 0.5s;
+}
+.royal-box:hover .royal-img{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.royal-box:hover .royal-text{
+    opacity: 1;
+    transition: 0.5s;
+}
+/* products done */
+
+/* cart  */
+.cart{
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 4%;
+}
+.cart table{
+    width: 100%;
+}
+.cart thead{
+    background: dodgerblue;
+    color: white;
+    text-transform: capitalize;
+}
+.cart td{
+    color: dodgerblue;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.cart .remov i{
+    color: #654329;
+}
+.cart img{
+    width: 80px;
+}
+.cart input{
+    width: 50%;
+    border: none;
+    outline: none;
+    text-align: center;
+    background: #f0f0f0;
+    color: dodgerblue;
+    font-weight: 700;
+}
+.title{
+    text-transform: capitalize;
+    padding-top: 5%;
+    margin-bottom: 2%;
+    color: darkblue;
+    font-weight: bold;
+}
+/* cart done */
+
+/* checkout  */
+.check{
+    margin-bottom: 10%;
+}
+.summary{
+    text-align: center;
+    color: dodgerblue;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 3%;
+}
+.shipping{
+    width: 90%;
+    padding-left: 10%;
+}
+.shipping .labe{
+    color: dodgerblue;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 600;
+}
+.shipping input{
+    border: none !important;
+    background: #f0f0f0;
+}
+.shipping input:focus{
+    box-shadow: 1px 1px 3px 5px dodgerblue;
+}
+.check-btn{
+    background: dodgerblue !important;
+    color: white;
+    text-transform: capitalize;
+    margin-top: 5%;
+}
+.check-btn:hover{
+    background: gold !important;
+    color: white;
+}
+/* checkout done */
+
+/* profile form  */
+.prof{
+    margin-bottom: 8%;
+}
+.img-pcard{
+    width: 60%;
+    height: 60vh;
+    padding-left: 7%;
+}
+.img-pcard img{
+    width: 100%;
+}
+.pro-form{
+    width: 90%;
+    padding-left: 10%;
+}
+.pro-form .labe{
+    color: dodgerblue;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 600;
+}
+.pro-form input{
+    border: none !important;
+    background: dodgerblue;
+    opacity: 0.3;
+}
+.pro-form input:focus{
+    box-shadow: 1px 1px 3px 5px dodgerblue;
+}
+.pro-form .check-btn{
+    background: dodgerblue !important;
+    color: white;
+    text-transform: capitalize;
+    margin-top: 5%;
+}
+.check-btn:hover{
+    background: gold !important;
+    color: white;
+}
+.pro-links{
+    margin-left: 10%;
+}
+.pro-links h4{
+    color: gold;
+}
+.pro-links a{
+    color: dodgerblue;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.pro-links a:hover{
+    text-decoration: none;
+    background: gold;
+    color: white;
+}
+.pass{
+    margin-top: 10%;
+}
+/* profile form done */
+
+/* callback  */
+.callback{
+    margin-bottom: 5%;
+}
+.call{
+    margin-top: 15%;
+    color: dodgerblue;
+    text-transform: capitalize;
+}
+.call span{
+    color: gold;
+}
+.call h3{
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.call h4{
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+/* callback done */
+
+/* signup and signin  */
+.form{
+    padding: 5% 25% 10% 30%;
+}
+.form h1{
+    color: gold;
+    text-align: center;
+    padding-bottom: 5%;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.form-page{
+    width: 90%;
+    padding-left: 10%;
+}
+.form-page form{
+    width: 100%;
+}
+.form-page .labe{
+    color: dodgerblue;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 600;
+}
+.form-page input{
+    border: none !important;
+    background: dodgerblue;
+    opacity: 0.3;
+}
+.form-page input:focus{
+    box-shadow: 1px 1px 3px 5px dodgerblue;
+}
+.check-btn{
+    background: dodgerblue !important;
+    color: white;
+    text-transform: capitalize;
+    margin-top: 5%;
+}
+.check-btn:hover{
+    background: gold !important;
+    color: white;
+}
+/* signup and signin done */
+
+
+
+
+
+
+
+@media(max-width:991px){
+    .hide{
+        display: none;
+    }
+}
+
+@media (max-width: 580px){
+    .cart{
+        width: 20%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .cart table{
+        width: 100%;
+    }
+    .cart img{
+        width: 30px;
+    }
+}
